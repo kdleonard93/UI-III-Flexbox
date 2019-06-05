@@ -156,11 +156,10 @@ h5 {
 }
 
 
-/* .container {
+.container {
 	display: flex;
 	flex-flow: column wrap;
-	align-content: stretch;
-} */
+}
 
 /* nav div {
 	display: flex;
@@ -171,9 +170,9 @@ h5 {
 
 nav {
 	display: flex;
-	justify-content: center;
-	margin: 10px;
-	padding:10px 10px 10px 100px;
+	justify-content: space-evenly;
+	margin: 20px;
+
 }
 
 a {
@@ -237,7 +236,7 @@ h1 {
 
 .top-section {
 	display: flex;
-	position: relative;
+	/* position: relative; */
 	justify-content: center;
 }
 
@@ -256,8 +255,6 @@ h1 {
 
 .contact {
 	display: flex;
-	position: relative;
-	left: 100px;
 }
 
 .address {
@@ -271,7 +268,8 @@ footer {
 }
 
 hr {
-	margin-left: 110px;
+ margin: 20px auto;
+ width: 800px;
 }
 
 address p {
@@ -292,29 +290,29 @@ h2 {
 
 .about {
 	display: flex;
-	width: 25%;
+	width: 45%;
 }
 
 .features {
 	display: flex;
-	width: 25%;
+	width: 45%;
 }
 
 .product {
 	display: flex;
-	width: 500px;
+	width: 30%;
 	height: auto;
 }
 
 .services {
 	display: flex;
-	width: 500px;
+	width: 30%;
 	height: auto;
 }
 
 .vision {
 	display: flex;
-	width: 500px;
+	width: 30%;
 	height: auto;
 }
 
