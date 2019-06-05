@@ -178,7 +178,7 @@ a {
 	display: flex;
 	flex: 1;
 	align-self: auto;
-	padding: 100px;
+	padding: 10px;
 	color: grey;
 	text-decoration: none;
 }
