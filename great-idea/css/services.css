@@ -154,3 +154,30 @@ h5 {
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 }
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+
+a {
+	display: flex;
+	flex: 1;
+	align-self: auto;
+	padding: 10px;
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkgrey;
+	text-decoration: underline;
+}
+
+
