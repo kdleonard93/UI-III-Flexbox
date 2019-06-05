@@ -157,7 +157,7 @@ h5 {
 
 /* .container {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap;
 } */
 
 /* nav div {
@@ -171,7 +171,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	margin: 10px;
-	padding:10px;
+	padding:10px 10px 10px 100px;
 }
 
 a {
@@ -191,12 +191,16 @@ a:hover {
 header {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: flex-end;
+	position: relative;
+	right: 500px;
 	flex: 1;
 }
 
 button {
 	display: flex;
+	position: relative;
+	bottom:100px;
 	align-self: auto;
 	flex: 1;
 	border: 1px solid black;
@@ -207,8 +211,9 @@ button {
 
 h1 {
 	display: flex;
-	flex: 1;
-	padding: 0 0 0 60px;
+	position: relative;
+	left: 50px;
+
 	font-size: 100px;
 	padding-bottom: 150px;
 }
@@ -234,8 +239,8 @@ h1 {
 
 .top-section {
 	display: flex;
+	position: relative;
 	justify-content: center;
-	align-items:;
 }
 
 .middle-img {
@@ -246,10 +251,15 @@ h1 {
 
 .bottom-section {
 	display: flex;
+	position: relative;
+	left: 100px;
+	
 }
 
 .contact {
 	display: flex;
+	position: relative;
+	left: 100px;
 }
 
 .address {
@@ -263,8 +273,7 @@ footer {
 }
 
 hr {
-	display: flex;
-	width: 75%;
+	margin-left: 110px;
 }
 
 address p {
