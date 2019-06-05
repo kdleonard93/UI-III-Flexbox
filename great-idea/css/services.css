@@ -180,4 +180,23 @@ a:hover {
 	text-decoration: underline;
 }
 
+h1 {
+	display: flex;
+	font-size: 20px;
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+
+}
+
+.header {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
 
