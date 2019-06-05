@@ -158,6 +158,7 @@ h5 {
 /* .container {
 	display: flex;
 	flex-flow: column wrap;
+	align-content: stretch;
 } */
 
 /* nav div {
@@ -190,11 +191,7 @@ a:hover {
 
 header {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-	position: relative;
-	right: 500px;
-	flex: 1;
+	justify-content: center;
 }
 
 button {
@@ -251,8 +248,8 @@ h1 {
 
 .bottom-section {
 	display: flex;
-	position: relative;
-	left: 100px;
+	justify-content: center;
+	align-items: center;
 	
 }
 
@@ -304,19 +301,19 @@ h2 {
 
 .product {
 	display: flex;
-	width: 100%;
+	width: 500px;
 	height: auto;
 }
 
 .services {
 	display: flex;
-	width: 100%;
+	width: 500px;
 	height: auto;
 }
 
 .vision {
 	display: flex;
-	width: 100%;
+	width: 500px;
 	height: auto;
 }
 
