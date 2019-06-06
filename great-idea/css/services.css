@@ -201,7 +201,24 @@ width: 62%;
 padding: 10px;
 }
 
-p {
+hr {
+	margin: 20px auto;
+	width: 800px;
+}
 
+.block-container {
+	display: flex;
+	flex-wrap: column wrap;
+	margin: 10px auto;
+	width: 800px;
+}
+
+.blocks {
+	display: flex;
+	flex-flow: column wrap;
+	border: 1px solid black;
+	margin: 10px;
+	width: 10%;
+	flex: auto;
 }
 
