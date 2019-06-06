@@ -208,14 +208,13 @@ hr {
 
 .block-container {
 	display: flex;
-	flex-wrap: column wrap;
 	margin: 10px auto;
 	width: 800px;
 }
 
 .blocks {
 	display: flex;
-	flex-flow: column wrap;
+	flex-wrap: wrap;
 	border: 1px solid black;
 	background: lightgray;
 	margin: 10px;
