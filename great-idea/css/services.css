@@ -203,7 +203,7 @@ padding: 10px;
 
 hr {
 	margin: 20px auto;
-	width: 800px;
+	width: 850px;
 }
 
 .block-container {
@@ -217,8 +217,33 @@ hr {
 	display: flex;
 	flex-flow: column wrap;
 	border: 1px solid black;
+	background: lightgray;
 	margin: 10px;
 	width: 10%;
 	flex: auto;
 }
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 
+.facts {
+	display: flex;
+	flex-flow: column wrap;
+	width: 30%;
+}
+
+p {
+	margin: 10px auto;	
+}
+
+li {
+	margin: 10px;
+}
+
+footer {
+	display: flex;
+	margin: 25px auto;
+	justify-content: center;
+}
