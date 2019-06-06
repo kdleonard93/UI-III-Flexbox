@@ -182,21 +182,26 @@ a:hover {
 
 h1 {
 	display: flex;
+	align-items: flex-start;
 	font-size: 20px;
 }
 
 .services-header-img {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
+	width: 100%;
 
 }
 
 .header {
-	display: flex;
-	flex-flow: column wrap;
-	justify-content: center;
-	align-items: center;
-	width: 50%;
+display: flex;
+flex-flow: column wrap;
+width: 62%;
+padding: 10px;
 }
 
+p {
+
+}
 
